@@ -1,9 +1,8 @@
 # Campus_Safety
 CPSC 4310 - XML Data Analysis project
 
-# Sources
+## Sources
 
-Sources:
 Mining Association Rules from XML Data using XQuery:
 Jacky W.W. Wan, Gillian Dobbit, http://crpit.com/confpapers/CRPITV32Wan.pdf
 
