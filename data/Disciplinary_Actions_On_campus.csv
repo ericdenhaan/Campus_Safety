@@ -1,0 +1,21 @@
+Survey year,Unitid,Institution name,Campus ID, Campus Name,Institution Size,Illegal weapons possession,Drug law violations,Liquor law violations
+2017,110583,California State University-Long Beach,1,Main Campus,37622,2,61,190
+2017,110608,California State University-Northridge,1,California State University- Northridge,41319,2,172,169
+2017,110662,University of California-Los Angeles,1,UCLA,44027,1,117,494
+2017,110680,University of California-San Diego,1,Main Campus,35772,1,222,833
+2016,110583,California State University-Long Beach,1,Main Campus,37776,0,54,138
+2016,110608,California State University-Northridge,1,California State University- Northridge,39916,3,260,236
+2016,110662,University of California-Los Angeles,1,UCLA,43548,0,53,381
+2016,110680,University of California-San Diego,1,Main Campus,34979,1,197,904
+2015,110583,California State University-Long Beach,1,Main Campus,37446,0,73,168
+2015,110608,California State University-Northridge,1,California State University- Northridge,41548,1,172,250
+2015,110662,University of California-Los Angeles,1,UCLA,41908,0,89,406
+2015,110680,University of California-San Diego,1,Main Campus,32906,3,294,1348
+2014,110583,California State University-Long Beach,1,Main Campus,36809,2,74,151
+2014,110608,California State University-Northridge,1,California State University- Northridge,40131,4,175,263
+2014,110662,University of California-Los Angeles,1,UCLA,41845,1,87,386
+2014,110680,University of California-San Diego,1,Main Campus,30709,7,500,1879
+2013,110583,California State University-Long Beach,1,Main Campus,35586,3,65,154
+2013,110608,California State University-Northridge,1,California State University- Northridge,38310,0,210,207
+2013,110662,University of California-Los Angeles,1,UCLA,40795,1,86,407
+2013,110680,University of California-San Diego,1,Main Campus,29517,3,403,1707
