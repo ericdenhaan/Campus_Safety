@@ -9,13 +9,16 @@ import csv, os
 #----------------------------------------------------------------------------------------------
 # Global Variables
 #----------------------------------------------------------------------------------------------
+
 csv_header_format_1 = 'Survey year,Unitid,Institution name,Campus ID,Campus Name,Institution Size,Illegal weapons possession,Drug law violations,Liquor law violations'
 csv_header_format_2 = 'Survey year,Unitid,Institution name,Campus ID,Campus Name,Institution Size,Murder/Non-negligent manslaughter,Negligent manslaughter,Robbery,Aggravated assault,Burglary,Motor vehicle theft,Arson'
 csv_header_format_3 = 'Institution name,Murder/Non-negligent manslaughter,Negligent manslaughter,Robbery,Aggravated assault,Burglary,Motor vehicle theft,Arson,Illegal weapons possession,Drug law violations,Liquor law violations'
 institutions = ['University of California-San Diego', 'California State University-Long Beach', 'California State University-Northridge', 'University of California-Los Angeles']
 
-
+#----------------------------------------------------------------------------------------------
 # Methods
+#----------------------------------------------------------------------------------------------
+
 # Get the sum of a column for a given year/institution in a csv file
 def sum_row(file, inst, mode):
 	sum_list = [inst, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -54,9 +57,7 @@ def sum_row(file, inst, mode):
 		sum_list[index] = str(sum_list[index])
 	return sum_list
 
-#----------------------------------------------------------------------------------------------
-# Get the sums for the collated csv files
-#----------------------------------------------------------------------------------------------
+# Get the sums for csv files
 def csv_sum(format_dir, mode):
 	os.chdir(format_dir)
 	if(mode == 1 or mode == 2):
@@ -120,6 +121,7 @@ def create_master():
 #----------------------------------------------------------------------------------------------
 # Script
 #----------------------------------------------------------------------------------------------
+
 # Find the input csv locations, set the output location
 os.chdir('../data/format-1')
 csv_dir_format_1 = os.getcwd()
