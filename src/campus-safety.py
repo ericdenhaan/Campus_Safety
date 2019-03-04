@@ -18,8 +18,65 @@ csv_output_location = 'combined.csv'
 # csv header formats
 csv_header_format_1 = 'Survey year,Unitid,Institution name,Campus ID,Campus Name,Institution Size,Illegal weapons possession,Drug law violations,Liquor law violations'
 csv_header_format_2 = 'Survey year,Unitid,Institution name,Campus ID,Campus Name,Institution Size,Murder/Non-negligent manslaughter,Negligent manslaughter,Robbery,Aggravated assault,Burglary,Motor vehicle theft,Arson'
+csv_header_format_3 = 'Institution name,Murder/Non-negligent manslaughter,Negligent manslaughter,Robbery,Aggravated assault,Burglary,Motor vehicle theft,Arson,Illegal weapons possession,Drug law violations,Liquor law violations'
 
-# Read and merge csv files
+institutions = ['University of California-San Diego', 'California State University-Long Beach', 'California State University-Northridge', 'University of California-Los Angeles']
+
+# Get the sum of a column for a given year/institution in a csv file
+def sum_row(file, inst, mode):
+	sum_list = [inst, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	if(mode == 1 or mode == 2):
+		sum_list[0] += ' - Subtotal'
+	for line in file:
+		splitLine = line.split(',')
+		if(mode == 1 or mode ==2):
+			if(splitLine[2] == inst):
+				if(mode == 1):
+					sum_list[8] += int(splitLine[6])
+					sum_list[9] += int(splitLine[7])
+					sum_list[10] += int(splitLine[8])
+				if(mode == 2):
+					sum_list[1] += int(splitLine[6])
+					sum_list[2] += int(splitLine[7])
+					sum_list[3] += int(splitLine[8])
+					sum_list[4] += int(splitLine[9])
+					sum_list[5] += int(splitLine[10])
+					sum_list[6] += int(splitLine[11])				
+					sum_list[7] += int(splitLine[12])
+		if(mode == 3):
+			if(splitLine[0] == inst + ' - Subtotal'):
+				sum_list[1] += int(splitLine[1])
+				sum_list[2] += int(splitLine[2])
+				sum_list[3] += int(splitLine[3])
+				sum_list[4] += int(splitLine[4])
+				sum_list[5] += int(splitLine[5])
+				sum_list[6] += int(splitLine[6])				
+				sum_list[7] += int(splitLine[7])
+				sum_list[8] += int(splitLine[8])
+				sum_list[9] += int(splitLine[9])
+				sum_list[10] += int(splitLine[10])
+
+	for index, sum in enumerate(sum_list):
+		sum_list[index] = str(sum_list[index])
+	return sum_list
+
+# Get the sums for the collated csv files
+def csv_sum(format_dir, mode):
+	os.chdir(format_dir)
+	if(mode == 1 or mode == 2):
+		for inst in institutions:
+			csv_merge = open(csv_output_location, 'r+w')
+			sum_list = sum_row(csv_merge, inst, mode)
+			csv_merge.write(','.join(sum_list))
+			csv_merge.write('\n')
+	if(mode == 3):
+		for inst in institutions:
+			csv_merge = open('master.csv', 'r+w')
+			sum_list = sum_row(csv_merge, inst, mode)
+			csv_merge.write(','.join(sum_list))
+			csv_merge.write('\n')
+
+# Read and merge similar csv files
 def csv_merge(format_dir, format_header):
 	dir_tree = os.walk(format_dir)
 	for dirpath, dirnames, filenames in dir_tree:
@@ -43,8 +100,35 @@ def csv_merge(format_dir, format_header):
 	      csv_merge.write(line)
 	   csv_in.close()
 
+# Create the master csv
+def create_master():
+	os.chdir(csv_dir_format_1)
+	combined_1 = open(csv_output_location, 'r')
+	os.chdir(csv_dir_format_2)
+	combined_2 = open(csv_output_location, 'r')
+	os.chdir(csv_output_dir)
+	master_csv = open('master.csv', 'w')
+	master_csv.write(csv_header_format_3)
+	master_csv.write('\n')
+	for line in combined_1:
+		splitLine = line.split(',')
+		for inst in institutions:
+			if(splitLine[0] == inst + ' - Subtotal'):
+				master_csv.write(line)
+	for line in combined_2:
+		splitLine = line.split(',')
+		for inst in institutions:
+			if(splitLine[0] == inst + ' - Subtotal'):
+				master_csv.write(line)
+
 csv_merge(csv_dir_format_1, csv_header_format_1)
+csv_sum(csv_dir_format_1, 1)
 print('Merged csv files of first format')
+
 csv_merge(csv_dir_format_2, csv_header_format_2)
+csv_sum(csv_dir_format_2, 2)
 print('Merged csv files of second format')
 
+create_master()
+csv_sum(csv_output_dir, 3)
+print('Master csv file created')
