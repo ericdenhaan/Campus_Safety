@@ -150,3 +150,8 @@ print('Master csv file created')
 os.chdir(csv_output_dir)
 os.system('java -cp ../lib/saxon9he.jar net.sf.saxon.Transform -o:master-csv.xml -it:main ../lib/csv-to-xml_v2.xslt pathToCSV=../data/master.csv')
 print('Translation from csv to xml complete')
+
+# Execute the xslt transform to get the final xml document
+os.chdir('../src')
+os.system('java -cp ../lib/saxon9he.jar net.sf.saxon.Transform -s:../data/master-csv.xml -xsl:./master-transform.xslt -o:../data/master-csv-transformed.xml')
+print('xslt transformations complete')
