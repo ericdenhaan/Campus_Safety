@@ -154,4 +154,8 @@ print('Translation from csv to xml complete')
 # Execute the xslt transform to get the final xml document
 os.chdir('../src')
 os.system('java -cp ../lib/saxon9he.jar net.sf.saxon.Transform -s:../data/master-csv.xml -xsl:./master-transform.xslt -o:../data/master-csv-transformed.xml')
-print('xslt transformations complete')
+print('Finished xslt transformations')
+
+# Generate the large itemsets for the apriori algorithm
+os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/large-itemsets.xml ./apriori-1.xquery')
+print('Large itemsets computed')

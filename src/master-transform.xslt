@@ -20,7 +20,9 @@ xmlns:fn="http://www.w3.org/2005/xpath-functions">
     <xsl:if test="fn:not(fn:contains(child::elem[1], 'Subtotal'))">
         <xsl:if test="child::elem[1] != ''">
             <institution name="{child::elem[1]}">
-                <xsl:apply-templates/>
+                <crimeStats>
+                    <xsl:apply-templates/>
+                </crimeStats>
             </institution>
         </xsl:if>
     </xsl:if>
