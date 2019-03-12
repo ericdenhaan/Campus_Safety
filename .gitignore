@@ -1,3 +1,2 @@
-./data/format-1/combined.csv
-./data/format-2/combined.csv
-./data/combined.csv
+./data/*.csv
+./data/*.xml
