@@ -34,7 +34,6 @@ declare function local:candidateGen($l) {
 			return 	<items>
 								{local:join($items1,$items2)}
 							</items>
-	return 
 };
 
 declare function local:prune($X, $Y)
@@ -87,8 +86,6 @@ declare function local:apriori($l, $L, $minsup, $total, $src)
 				local:apriori($l, $L, $minsup, $total, $src)
 };
 
-(:{local:apriori($l, $L, $minsup, $total, $src)}:)
-
 prof:time(
 let $src := doc('../data/transactions.xml')//items
 let $minsup := 0.4
@@ -106,6 +103,6 @@ let $l := (for $itemset in $C
 							</largeItemset>)
 let $L := $l
 return	<largeItemsets> 
-					{local:candidateGen($l)}
+					{local:apriori($l, $L, $minsup, $total, $src)}
 				</largeItemsets>, 
 'Execution time of large itemset computation (apriori version 1): ')
