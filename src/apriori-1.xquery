@@ -1,4 +1,14 @@
+(:===================================================================================================================:)
+(: apriori-1 XQuery Script :)
+(: Perform the apriori algorithm using code supplied by researchers :)
+(:===================================================================================================================:)
+
+(: Imports/Namespaces :)
 declare namespace prof="http://basex.org/modules/prof";
+
+(:===================================================================================================================:)
+(: join function :)
+(:===================================================================================================================:)
 
 declare function local:join($X, $Y) 
 {
@@ -9,12 +19,20 @@ declare function local:join($X, $Y)
 	return $X union $items
 };
 
+(:===================================================================================================================:)
+(: commonItems function :)
+(:===================================================================================================================:)
+
 declare function local:commonItems($X, $Y)
 {
 	for $item in $X
 	where some $i in $Y satisfies $i = $item
 	return $item
 };
+
+(:===================================================================================================================:)
+(: removeItems function :)
+(:===================================================================================================================:)
 
 declare function local:removeItems($X, $Y)
 {
@@ -23,18 +41,27 @@ declare function local:removeItems($X, $Y)
 	return $item
 };
 
+(:===================================================================================================================:)
+(: candidateGen function :)
+(:===================================================================================================================:)
+
 declare function local:candidateGen($l) {
 	for $freqSet1 in $l
 	let $items1 := $freqSet1//items/*
 		for $freqSet2 in $l
 		let $items2 := $freqSet2//items/*
-		where $freqSet2 >> $freqSet1 and
-			count($items1) + 1 = count($items1 union $items2)
+		where $freqSet2 >> $freqSet1 
+		(: Researchers provide this line, but results do not match when used :)
+		(: and count($items1)+1 = count($items1 union $items2) :)
 			and local:prune(local:join($items1,$items2), $l)
 			return 	<items>
 								{local:join($items1,$items2)}
 							</items>
 };
+
+(:===================================================================================================================:)
+(: prune function :)
+(:===================================================================================================================:)
 
 declare function local:prune($X, $Y)
 {
@@ -43,6 +70,10 @@ declare function local:prune($X, $Y)
 	count(local:commonItems(local:removeItems($X,$item),$items/*))
 	= count($X) - 1
 };
+
+(:===================================================================================================================:)
+(: removeDuplicate function :)
+(:===================================================================================================================:)
 
 declare function local:removeDuplicate($C)
 {
@@ -57,6 +88,10 @@ declare function local:removeDuplicate($C)
 	where count($items) = 0
 	return $itemset1
 };
+
+(:===================================================================================================================:)
+(: getLargeItemsets function :)
+(:===================================================================================================================:)
 
 declare function local:getLargeItemsets($C, $minsup, $total, $src)
 {
@@ -74,35 +109,68 @@ declare function local:getLargeItemsets($C, $minsup, $total, $src)
 					</largeItemset>
 };
 
+(:===================================================================================================================:)
+(: apriori function :)
+(:===================================================================================================================:)
+
 declare function local:apriori($l, $L, $minsup, $total, $src)
 {
+	(: Generate candidate itemsets :)
 	let $C := local:removeDuplicate(local:candidateGen($l))
+
+	(: Get large itemsets using the candidates :)
 	let $l := local:getLargeItemsets($C, $minsup, $total, $src)
+
+	(: Join previous itemsets and current itemsets together :)
 	let $L := $l union $L
 	return 	
+			(: If no new large itemsets are generated, return, else continue :)
 			if (empty($l)) then
 				$L
 			else
 				local:apriori($l, $L, $minsup, $total, $src)
 };
 
+(:===================================================================================================================:)
+(: Script :)
+(:===================================================================================================================:)
+
+(: BaseX time profiler function will track the execution time of the algorithm :)
 prof:time(
+
+(: Load xml file and grab all of the 'items' nodes :)
 let $src := doc('../data/transactions.xml')//items
+
+(: Set the minimum support value :)
 let $minsup := 0.4
+
+(: Total number of 'items' nodes :)
 let $total := count($src) * 1.00
+
+(: Distinct 'items' nodes :)
 let $C := distinct-values($src/*)
+
+(: Generate the initial itemsets :)
 let $l := (for $itemset in $C
+			(: Count the occurence of each distinct item in src :)
 			let $items := (for $item in $src/* 
 				where $itemset = $item 
 				return $item)
+
+			(: Determine the support of each distinct item :)
 			let $sup := (count($items) * 1.00) div $total
+
+			(: Return a large itemset for each itemset with minimum support :)
 			where $sup >= $minsup
 			return	<largeItemset> 
-								<items> {$itemset} </items> 
+								<items> 
+									<item>{$itemset}</item> 
+								</items> 
 								<support> {$sup} </support>	
 							</largeItemset>)
 let $L := $l
-return	<largeItemsets> 
+(: Call the recursive apriori algorithm to generate all itemsets :)
+return	<largeItemsets>
 					{local:apriori($l, $L, $minsup, $total, $src)}
 				</largeItemsets>, 
 'Execution time of large itemset computation (apriori version 1): ')
