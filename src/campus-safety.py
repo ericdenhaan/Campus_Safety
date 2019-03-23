@@ -160,3 +160,8 @@ print('Finished xslt transformations')
 os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/large-itemsets-paper.xml ./apriori-paper.xquery')
 os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/large-itemsets.xml ./apriori-1.xquery')
 print('Large itemsets computed')
+
+# Generate the association rules
+os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/rules-paper.xml ./assoc-rules-paper.xquery')
+os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/rules.xml ./assoc-rules.xquery')
+print('Association rules computed')

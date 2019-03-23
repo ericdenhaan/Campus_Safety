@@ -1,6 +1,7 @@
 (:===================================================================================================================:)
-(: apriori-1 XQuery Script :)
-(: Perform the apriori algorithm using code supplied by researchers :)
+(: apriori-paper XQuery Script :)
+(: Perform the apriori algorithm using code and data supplied by researchers :)
+(: Code has been slightly modified to be up to date with XQuery current standard and provide accurate results :)
 (:===================================================================================================================:)
 
 (: Imports/Namespaces :)
