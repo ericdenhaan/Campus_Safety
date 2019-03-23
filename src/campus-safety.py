@@ -157,5 +157,6 @@ os.system('java -cp ../lib/saxon9he.jar net.sf.saxon.Transform -s:../data/master
 print('Finished xslt transformations')
 
 # Generate the large itemsets for the apriori algorithm
+os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/large-itemsets-paper.xml ./apriori-paper.xquery')
 os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/large-itemsets.xml ./apriori-1.xquery')
 print('Large itemsets computed')

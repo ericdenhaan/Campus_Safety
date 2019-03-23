@@ -1,36 +1,37 @@
 <?xml version="1.0"?>
-<!--master-transform.xslt-->
+<!--master-transform-1.xslt-->
 <!--Filter the provided XML to only the relevant data-->
 <!--Written By: Eric Den Haan-->
-<xsl:stylesheet version="2.0" 
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-xmlns:fn="http://www.w3.org/2005/xpath-functions">
-<xsl:output method="xml" indent="yes" encoding="US-ASCII"/>
-<xsl:strip-space elements="*"/>
-
-<xsl:template match="elem">
+<xsl:stylesheet version="2.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fn="http://www.w3.org/2005/xpath-functions">
+  <xsl:output method="xml" indent="yes" encoding="US-ASCII"/>
+  <xsl:strip-space elements="*"/>
+  <xsl:template match="elem">
+    <xsl:variable name="crimeType" select="./@name"/>
+    <xsl:variable name="crimeInstances" select="."/>
     <xsl:if test="number(.)">
-        <crimeStat name="{@name}">
-            <xsl:value-of select="."/>
+      <xsl:for-each select="1 to $crimeInstances">
+        <crimeStat>
+          <xsl:value-of select="$crimeType"/>
         </crimeStat>
+      </xsl:for-each>
     </xsl:if>
-</xsl:template>
-
-<xsl:template match="row">
+  </xsl:template>
+  <xsl:template match="row">
     <xsl:if test="fn:not(fn:contains(child::elem[1], 'Subtotal'))">
-        <xsl:if test="child::elem[1] != ''">
-            <institution name="{child::elem[1]}">
-                <crimeStats>
-                    <xsl:apply-templates/>
-                </crimeStats>
-            </institution>
-        </xsl:if>
+      <xsl:if test="child::elem[1] != ''">
+        <institution name="{child::elem[1]}">
+          <crimeStats>
+            <xsl:apply-templates/>
+          </crimeStats>
+        </institution>
+      </xsl:if>
     </xsl:if>
-</xsl:template>
-
-<xsl:template match="root">
+  </xsl:template>
+  <xsl:template match="root">
     <institutions>
-        <xsl:apply-templates/>
+      <xsl:apply-templates/>
     </institutions>
-</xsl:template>
+  </xsl:template>
 </xsl:stylesheet>
