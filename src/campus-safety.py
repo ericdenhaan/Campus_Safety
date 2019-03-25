@@ -128,7 +128,9 @@ print('1 = University of California-San Diego')
 print('2 = California State University-Long Beach')
 print('3 = California State University-Northridge')
 print('4 = University of California-Los Angeles')
-institutionNum = input("Make a choice: ")
+institutionNum = 0
+while(institutionNum < 1 or institutionNum > 4):
+  	institutionNum = input('Please make a choice: ')
 
 if(institutionNum == 1):
 	institutionName = 'University of California-San Diego'
