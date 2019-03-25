@@ -123,11 +123,11 @@ def create_master():
 #----------------------------------------------------------------------------------------------
 
 # Ask the user which institution to analyze
-print('Which institution would you like to analyze?')
+print('Which institution would you like to analyze?\n')
 print('1 = University of California-San Diego')
 print('2 = California State University-Long Beach')
 print('3 = California State University-Northridge')
-print('4 = University of California-Los Angeles')
+print('4 = University of California-Los Angeles\n')
 institutionNum = 0
 while(institutionNum < 1 or institutionNum > 4):
   	institutionNum = input('Please make a choice: ')
@@ -141,6 +141,9 @@ elif(institutionNum == 3):
 elif(institutionNum == 4):
 	institutionName = 'University of California-Los Angeles'
 
+support = str(input('\nPlease enter a minimum support value (for example, 0.4 or 1): '))
+confidence = str(input('Please enter a minimum confidence value: '))
+
 # Find the input csv locations, set the output location
 os.chdir('../data/format-1')
 csv_dir_format_1 = os.getcwd()
@@ -153,7 +156,7 @@ csv_output_location = 'combined.csv'
 # Merge the csv files of format type 1
 csv_merge(csv_dir_format_1, csv_header_format_1)
 csv_sum(csv_dir_format_1, 1)
-print('Merged csv files of first format')
+print('\nMerged csv files of first format')
 
 # Merge the csv files of format type 2
 csv_merge(csv_dir_format_2, csv_header_format_2)
@@ -174,14 +177,16 @@ print('Translation from csv to xml complete')
 os.chdir('../src')
 xsltString = 'java -cp ../lib/saxon9he.jar net.sf.saxon.Transform -s:../data/master-csv.xml -xsl:./master-transform.xslt -o:../data/master-csv-transformed.xml institutionName="' + institutionName + '"'
 os.system(xsltString)
-print('Finished xslt transformations')
+print('Finished xslt transformations\n')
 
 # Generate the large itemsets for the apriori algorithm
-os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/large-itemsets-paper.xml ./apriori-paper.xquery')
-os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/large-itemsets.xml ./apriori-1.xquery')
-print('Large itemsets computed')
+aprioriString = 'java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../output/large-itemsets.xml -b support="' + support + '" ./apriori-1.xquery'
+os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../output/large-itemsets-paper.xml ./apriori-paper.xquery')
+os.system(aprioriString)
+print('Large itemsets computed\n')
 
 # Generate the association rules
-os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/rules-paper.xml ./assoc-rules-paper.xquery')
-os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../data/rules.xml ./assoc-rules.xquery')
+rulesString = 'java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../output/rules.xml  -b confidence="' + confidence + '" ./assoc-rules.xquery'
+os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../output/rules-paper.xml ./assoc-rules-paper.xquery')
+os.system(rulesString)
 print('Association rules computed')

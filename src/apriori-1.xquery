@@ -6,6 +6,8 @@
 
 (: Imports/Namespaces :)
 declare namespace prof="http://basex.org/modules/prof";
+declare namespace xs = "http://www.w3.org/2001/XMLSchema";
+declare variable $support as xs:string+ external;
 
 (:===================================================================================================================:)
 (: join function :)
@@ -143,7 +145,7 @@ prof:time(
 let $src := doc('../data/master-csv-transformed.xml')//crimeStats
 
 (: Set the minimum support value :)
-let $minsup := 1
+let $minsup := number($support)
 
 (: Total number of 'crimeStats' nodes :)
 let $total := count($src) * 1.00

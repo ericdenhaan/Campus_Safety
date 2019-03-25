@@ -5,6 +5,8 @@
 
 (: Imports/Namespaces :)
 declare namespace prof="http://basex.org/modules/prof";
+declare namespace xs = "http://www.w3.org/2001/XMLSchema";
+declare variable $confidence as xs:string+ external;
 
 (:===================================================================================================================:)
 (: commonItems function :)
@@ -16,7 +18,6 @@ declare function local:commonItems($X, $Y)
 	where some $i in $Y satisfies $i = $item
 	return $item
 };
-
 
 (:===================================================================================================================:)
 (: removeItems function :)
@@ -33,8 +34,8 @@ declare function local:removeItems($X, $Y)
 (: Script :)
 (:===================================================================================================================:)
 prof:time(
-let $minconf := 1.00
-let $src := doc('../data/large-itemsets.xml')//largeItemset
+let $minconf := number($confidence)
+let $src := doc('../output/large-itemsets.xml')//largeItemset
 for $itemset1 in $src
   let $items1 := $itemset1/items/*
 for $itemset2 in $src

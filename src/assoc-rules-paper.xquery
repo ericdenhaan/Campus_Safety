@@ -35,7 +35,7 @@ declare function local:removeItems($X, $Y)
 
 prof:time(
 let $minconf := 1.00
-let $src := doc('../data/large-itemsets-paper.xml')//largeItemset
+let $src := doc('../output/large-itemsets-paper.xml')//largeItemset
 for $itemset1 in $src
   let $items1 := $itemset1/items/*
 for $itemset2 in $src
