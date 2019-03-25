@@ -122,6 +122,23 @@ def create_master():
 # Script
 #----------------------------------------------------------------------------------------------
 
+# Ask the user which institution to analyze
+print('Which institution would you like to analyze?')
+print('1 = University of California-San Diego')
+print('2 = California State University-Long Beach')
+print('3 = California State University-Northridge')
+print('4 = University of California-Los Angeles')
+institutionNum = input("Make a choice: ")
+
+if(institutionNum == 1):
+	institutionName = 'University of California-San Diego'
+elif(institutionNum == 2):
+	institutionName = 'California State University-Long Beach'
+elif(institutionNum == 3):
+	institutionName = 'California State University-Northridge'
+elif(institutionNum == 4):
+	institutionName = 'University of California-Los Angeles'
+
 # Find the input csv locations, set the output location
 os.chdir('../data/format-1')
 csv_dir_format_1 = os.getcwd()
@@ -153,7 +170,8 @@ print('Translation from csv to xml complete')
 
 # Execute the xslt transform to get the final xml document
 os.chdir('../src')
-os.system('java -cp ../lib/saxon9he.jar net.sf.saxon.Transform -s:../data/master-csv.xml -xsl:./master-transform.xslt -o:../data/master-csv-transformed.xml')
+xsltString = 'java -cp ../lib/saxon9he.jar net.sf.saxon.Transform -s:../data/master-csv.xml -xsl:./master-transform.xslt -o:../data/master-csv-transformed.xml institutionName="' + institutionName + '"'
+os.system(xsltString)
 print('Finished xslt transformations')
 
 # Generate the large itemsets for the apriori algorithm

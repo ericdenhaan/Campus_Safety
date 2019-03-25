@@ -143,7 +143,7 @@ prof:time(
 let $src := doc('../data/master-csv-transformed.xml')//crimeStats
 
 (: Set the minimum support value :)
-let $minsup := 0.4
+let $minsup := 1
 
 (: Total number of 'crimeStats' nodes :)
 let $total := count($src) * 1.00
