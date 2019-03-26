@@ -1,0 +1,2301 @@
+<largeItemsets>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+    </items>
+    <support>17</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+    </items>
+    <support>38</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+    </items>
+    <support>188</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>142</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Arson</item>
+    </items>
+    <support>28</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>61</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Drug law violations</item>
+    </items>
+    <support>3299</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Liquor law violations</item>
+    </items>
+    <support>13182</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Liquor law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Arson</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Arson</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Arson</item>
+      <item>Liquor law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Illegal weapons possession</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Illegal weapons possession</item>
+      <item>Liquor law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Drug law violations</item>
+      <item>Liquor law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Arson</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Arson</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Arson</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Arson</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Illegal weapons possession</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Arson</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Motor vehicle theft</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Burglary</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Aggravated assault</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+  <largeItemset>
+    <items>
+      <item>Robbery</item>
+      <item>Liquor law violations</item>
+      <item>Drug law violations</item>
+      <item>Illegal weapons possession</item>
+      <item>Arson</item>
+      <item>Motor vehicle theft</item>
+      <item>Burglary</item>
+      <item>Aggravated assault</item>
+    </items>
+    <support>1</support>
+  </largeItemset>
+</largeItemsets>

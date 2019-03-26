@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<root>
+   <row>
+      <elem name="Institution name">University of California-San Diego - Subtotal</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">0</elem>
+      <elem name="Aggravated assault">0</elem>
+      <elem name="Burglary">0</elem>
+      <elem name="Motor vehicle theft">0</elem>
+      <elem name="Arson">0</elem>
+      <elem name="Illegal weapons possession">61</elem>
+      <elem name="Drug law violations">3299</elem>
+      <elem name="Liquor law violations">13182</elem>
+   </row>
+   <row>
+      <elem name="Institution name">California State University-Long Beach - Subtotal</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">0</elem>
+      <elem name="Aggravated assault">0</elem>
+      <elem name="Burglary">0</elem>
+      <elem name="Motor vehicle theft">0</elem>
+      <elem name="Arson">0</elem>
+      <elem name="Illegal weapons possession">32</elem>
+      <elem name="Drug law violations">610</elem>
+      <elem name="Liquor law violations">1553</elem>
+   </row>
+   <row>
+      <elem name="Institution name">California State University-Northridge - Subtotal</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">0</elem>
+      <elem name="Aggravated assault">0</elem>
+      <elem name="Burglary">0</elem>
+      <elem name="Motor vehicle theft">0</elem>
+      <elem name="Arson">0</elem>
+      <elem name="Illegal weapons possession">33</elem>
+      <elem name="Drug law violations">2065</elem>
+      <elem name="Liquor law violations">2191</elem>
+   </row>
+   <row>
+      <elem name="Institution name">University of California-Los Angeles - Subtotal</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">0</elem>
+      <elem name="Aggravated assault">0</elem>
+      <elem name="Burglary">0</elem>
+      <elem name="Motor vehicle theft">0</elem>
+      <elem name="Arson">0</elem>
+      <elem name="Illegal weapons possession">30</elem>
+      <elem name="Drug law violations">1034</elem>
+      <elem name="Liquor law violations">4314</elem>
+   </row>
+   <row>
+      <elem name="Institution name">University of California-San Diego - Subtotal</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">17</elem>
+      <elem name="Aggravated assault">38</elem>
+      <elem name="Burglary">188</elem>
+      <elem name="Motor vehicle theft">142</elem>
+      <elem name="Arson">28</elem>
+      <elem name="Illegal weapons possession">0</elem>
+      <elem name="Drug law violations">0</elem>
+      <elem name="Liquor law violations">0</elem>
+   </row>
+   <row>
+      <elem name="Institution name">California State University-Long Beach - Subtotal</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">5</elem>
+      <elem name="Aggravated assault">14</elem>
+      <elem name="Burglary">72</elem>
+      <elem name="Motor vehicle theft">84</elem>
+      <elem name="Arson">1</elem>
+      <elem name="Illegal weapons possession">0</elem>
+      <elem name="Drug law violations">0</elem>
+      <elem name="Liquor law violations">0</elem>
+   </row>
+   <row>
+      <elem name="Institution name">California State University-Northridge - Subtotal</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">22</elem>
+      <elem name="Aggravated assault">20</elem>
+      <elem name="Burglary">137</elem>
+      <elem name="Motor vehicle theft">101</elem>
+      <elem name="Arson">7</elem>
+      <elem name="Illegal weapons possession">0</elem>
+      <elem name="Drug law violations">0</elem>
+      <elem name="Liquor law violations">0</elem>
+   </row>
+   <row>
+      <elem name="Institution name">University of California-Los Angeles - Subtotal</elem>
+      <elem name="Murder/Non-negligent manslaughter">1</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">44</elem>
+      <elem name="Aggravated assault">106</elem>
+      <elem name="Burglary">583</elem>
+      <elem name="Motor vehicle theft">86</elem>
+      <elem name="Arson">16</elem>
+      <elem name="Illegal weapons possession">0</elem>
+      <elem name="Drug law violations">0</elem>
+      <elem name="Liquor law violations">0</elem>
+   </row>
+   <row>
+      <elem name="Institution name">University of California-San Diego</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">17</elem>
+      <elem name="Aggravated assault">38</elem>
+      <elem name="Burglary">188</elem>
+      <elem name="Motor vehicle theft">142</elem>
+      <elem name="Arson">28</elem>
+      <elem name="Illegal weapons possession">61</elem>
+      <elem name="Drug law violations">3299</elem>
+      <elem name="Liquor law violations">13182</elem>
+   </row>
+   <row>
+      <elem name="Institution name">California State University-Long Beach</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">5</elem>
+      <elem name="Aggravated assault">14</elem>
+      <elem name="Burglary">72</elem>
+      <elem name="Motor vehicle theft">84</elem>
+      <elem name="Arson">1</elem>
+      <elem name="Illegal weapons possession">32</elem>
+      <elem name="Drug law violations">610</elem>
+      <elem name="Liquor law violations">1553</elem>
+   </row>
+   <row>
+      <elem name="Institution name">California State University-Northridge</elem>
+      <elem name="Murder/Non-negligent manslaughter">0</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">22</elem>
+      <elem name="Aggravated assault">20</elem>
+      <elem name="Burglary">137</elem>
+      <elem name="Motor vehicle theft">101</elem>
+      <elem name="Arson">7</elem>
+      <elem name="Illegal weapons possession">33</elem>
+      <elem name="Drug law violations">2065</elem>
+      <elem name="Liquor law violations">2191</elem>
+   </row>
+   <row>
+      <elem name="Institution name">University of California-Los Angeles</elem>
+      <elem name="Murder/Non-negligent manslaughter">1</elem>
+      <elem name="Negligent manslaughter">0</elem>
+      <elem name="Robbery">44</elem>
+      <elem name="Aggravated assault">106</elem>
+      <elem name="Burglary">583</elem>
+      <elem name="Motor vehicle theft">86</elem>
+      <elem name="Arson">16</elem>
+      <elem name="Illegal weapons possession">30</elem>
+      <elem name="Drug law violations">1034</elem>
+      <elem name="Liquor law violations">4314</elem>
+   </row>
+   <row>
+      <elem name="Institution name"/>
+      <elem name="Murder/Non-negligent manslaughter"/>
+      <elem name="Negligent manslaughter"/>
+      <elem name="Robbery"/>
+      <elem name="Aggravated assault"/>
+      <elem name="Burglary"/>
+      <elem name="Motor vehicle theft"/>
+      <elem name="Arson"/>
+      <elem name="Illegal weapons possession"/>
+      <elem name="Drug law violations"/>
+      <elem name="Liquor law violations"/>
+   </row>
+</root>

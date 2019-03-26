@@ -1,0 +1,27 @@
+<rule support="0.4" confidence="1">
+  <antecedent>
+    <item>d</item>
+    <item>b</item>
+  </antecedent>
+  <consequent>
+    <item>c</item>
+  </consequent>
+</rule>
+<rule support="0.4" confidence="1">
+  <antecedent>
+    <item>d</item>
+    <item>c</item>
+  </antecedent>
+  <consequent>
+    <item>b</item>
+  </consequent>
+</rule>
+<rule support="0.4" confidence="1">
+  <antecedent>
+    <item>b</item>
+    <item>c</item>
+  </antecedent>
+  <consequent>
+    <item>d</item>
+  </consequent>
+</rule>
