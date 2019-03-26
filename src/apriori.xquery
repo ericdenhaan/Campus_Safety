@@ -1,10 +1,12 @@
 (:===================================================================================================================:)
-(: apriori-paper XQuery Script :)
-(: Perform the apriori algorithm using data supplied by researchers :)
+(: apriori XQuery Script :)
+(: Perform the apriori algorithm on the custom dataset :)
 (:===================================================================================================================:)
 
 (: Imports/Namespaces :)
 declare namespace prof="http://basex.org/modules/prof";
+declare namespace xs = "http://www.w3.org/2001/XMLSchema";
+declare variable $support as xs:string+ external;
 
 (:===================================================================================================================:)
 (: join function :)
@@ -138,16 +140,16 @@ declare function local:apriori($l, $L, $minsup, $total, $src)
 (: BaseX time profiler function will track the execution time of the algorithm :)
 prof:time(
 
-(: Load xml file and grab all of the 'items' nodes :)
-let $src := doc('../data/transactions.xml')//items
+(: Load xml file and grab all of the 'crimeStats' nodes :)
+let $src := doc('../data/master-csv-transformed.xml')//crimeStats
 
 (: Set the minimum support value :)
-let $minsup := 0.4
+let $minsup := number($support)
 
-(: Total number of 'items' nodes :)
+(: Total number of 'crimeStats' nodes :)
 let $total := count($src) * 1.00
 
-(: Distinct 'items' nodes :)
+(: Distinct 'crimeStats' nodes :)
 let $C := distinct-values($src/*)
 
 (: Generate the initial itemsets :)
@@ -173,4 +175,4 @@ let $L := $l
 return	<largeItemsets>
 					{local:apriori($l, $L, $minsup, $total, $src)}
 				</largeItemsets>, 
-'Execution time of large itemset computation from paper: ')
+'Execution time of large itemset computation from custom dataset: ')

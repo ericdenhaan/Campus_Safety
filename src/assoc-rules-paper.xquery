@@ -1,6 +1,6 @@
 (:===================================================================================================================:)
 (: assoc-rules-paper XQuery Script :)
-(: Generate association rules using code and dataset provided by researchers :)
+(: Generate association rules using dataset provided by researchers :)
 (:===================================================================================================================:)
 
 (: Imports/Namespaces :)

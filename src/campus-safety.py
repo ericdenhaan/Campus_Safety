@@ -180,7 +180,7 @@ os.system(xsltString)
 print('Finished xslt transformations\n')
 
 # Generate the large itemsets for the apriori algorithm
-aprioriString = 'java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../output/large-itemsets.xml -b support="' + support + '" ./apriori-1.xquery'
+aprioriString = 'java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../output/large-itemsets.xml -b support="' + support + '" ./apriori.xquery'
 os.system('java -cp ../lib/BaseX912.jar org.basex.BaseX -o ../output/large-itemsets-paper.xml ./apriori-paper.xquery')
 os.system(aprioriString)
 print('Large itemsets computed\n')
